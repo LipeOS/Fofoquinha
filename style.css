@@ -1,0 +1,173 @@
+/*========= titulo do site==================*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(
+
+ #fbfbfb,
+ 
+ #909090
+
+ #000000
+
+  )
+    
+    
+}
+#title{
+    position: sticky;
+    left: 520px;
+    text-align: center;
+    color: rgb(155, 11, 11);
+}
+#linha{
+    background-color: #000000;
+}
+#rodape{
+    position: relative;
+    top: 700px;
+  min-height: 25vh;
+  background: #000000;
+}
+.rodape{
+    background: #941e1e;
+}
+#icon{
+
+position: absolute ;
+left: 450px;
+width: 64px;
+height: 64px;
+text-align: center;
+
+}
+.item{
+    position: absolute;
+}
+
+/*===============modo escuro=============*/
+
+
+
+
+
+
+/*===============noticias=============*/
+
+#new1titulo{
+
+text-align: center;
+
+}
+
+#new1photo{
+    width: 700px;
+    height: 512px;
+}
+#new1text{
+
+position: absolute;
+top: 260px; 
+left: 800px; 
+width: 300px;
+ height: 300px;
+
+}
+
+#new2titulo{
+
+text-align: center;
+
+
+}
+#new2photo{
+
+    width: 700px;
+    height: 512px;
+
+}
+#new2texto{
+position: relative;
+top: -303px; 
+left: 800px; 
+width: 300px;
+ height: 300px;
+ 
+}
+#new3titulo{
+
+    text-align: center;
+}
+
+#new3photo{
+
+    width: 500px;
+    height: 490px;
+}
+#new3texto{
+
+    position: relative;
+    top: -400px;
+    left: 900px;
+    
+}
+#new3video{
+
+    width: 380px; 
+    height: 500px;
+}
+
+#new4titulo{
+    text-align: center;
+}
+
+
+#new4text{
+    top: -800px;
+    left: 900px;
+}
+
+
+#new4photo{
+
+    width: 600px;
+    height: 512px;
+}
+
+#ceca{
+    text-decoration: none;
+}
+/*================rodape que não entendi========*/
+
+#nomes{
+
+color: #ffffff;
+
+}
+.wrapper{
+
+    max-height: 120px;
+    border:1px solid #ff0000;
+    display: flex;
+    overflow-x: auto;
+    
+    
+    
+    }
+    
+    .wrapper::-webkit-scrollbar{
+    width: 0;
+    
+    }
+    
+    
+    .wrapper .item{
+    
+    min-width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #1eff00;
+    margin-right: 2px;
+    
+    
+    }
